@@ -18,8 +18,8 @@ class Resource {
         this.longitude =
             Number(data.longitude);
 
-        this.parish =
-            String(data.parish ?? "").trim();
+                this.county =
+            String(data.county ?? "").trim();
 
         this.description =
             String(data.description ?? "").trim();
