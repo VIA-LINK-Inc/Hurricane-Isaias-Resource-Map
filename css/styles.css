@@ -553,3 +553,37 @@ body.demo-mode-active {
 .resource-search {
     display: none;
 }
+
+/* ===========================
+   Popup sizing and pinned action buttons
+   =========================== */
+
+.resource-popup {
+    width: min(260px, 72vw);
+    overflow-wrap: anywhere;
+}
+
+.resource-popup__actions {
+    position: sticky;
+    bottom: 0;
+    margin-top: 12px;
+    padding: 10px 0 4px;
+    background: #ffffff;
+    border-top: 1px solid #e5e5e5;
+}
+
+@media (max-width: 768px) {
+
+    .resource-popup__title {
+        font-size: 18px;
+    }
+
+    .resource-popup__category {
+        margin-bottom: 10px;
+    }
+
+    .resource-popup p {
+        margin-bottom: 8px;
+        font-size: 14px;
+    }
+}
