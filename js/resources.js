@@ -477,8 +477,8 @@ class ResourceManager {
             latitude,
             longitude,
 
-            parish:
-                rowData.parish ?? "",
+                county:
+                rowData.county ?? "",
 
             description:
                 rowData.description ?? "",
