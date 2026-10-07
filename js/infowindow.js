@@ -53,8 +53,8 @@ class InfoWindowBuilder {
         const address =
             this.escapeHtml(resource.address);
 
-        const parish =
-            this.escapeHtml(resource.parish);
+                const county =
+            this.escapeHtml(resource.county);
 
         const hours =
             this.escapeHtml(resource.hours);
@@ -115,12 +115,12 @@ class InfoWindowBuilder {
                         : ""
                 }
 
-                ${
-                    parish
+                 ${
+                    county
                         ? `
                             <p>
-                                <strong>Parish</strong><br>
-                                ${parish}
+                                <strong>County</strong><br>
+                                ${county}
                             </p>
                         `
                         : ""
