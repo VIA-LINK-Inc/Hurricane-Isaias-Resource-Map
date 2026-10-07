@@ -68,10 +68,16 @@ resourceCategories: {
             icon: "snowflake"
         },
 
-        "Medical Supplies": {
-            background: "#d32f2f",
-            border: "#8b0000",
+                "Medical Supplies": {
+            background: "#f06292",
+            border: "#c2185b",
             icon: "medical"
+        },
+
+        "Sandbags": {
+            background: "#f44336",
+            border: "#b71c1c",
+            icon: "shovel"
         },
 
         "Charging": {
