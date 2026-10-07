@@ -480,7 +480,7 @@ applyFilters(shouldFit = true) {
             resource.name,
             resource.category,
             resource.address,
-            resource.parish,
+            resource.county,
             resource.description,
             resource.hours,
             resource.phone,
