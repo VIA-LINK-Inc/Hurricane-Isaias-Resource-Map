@@ -9,7 +9,7 @@ const CONFIG = {
 
     client: {
     name: "VIA LINK",
-    mapTitle: "VIA LINK Disaster Resource Map",
+    mapTitle: "Tropical Storm Isaias Disaster Resource Map",
     demoMapTitle: "DEMO - VIA LINK Disaster Resource Map",
     brandColor: "#087DC1"
 },
@@ -21,11 +21,11 @@ const CONFIG = {
 
     // Google Sheets configuration
     googleSheets: {
-        spreadsheetId: "1JrqGYulk1h3Kzx_IWyphtj6eJQoanyf7shY5t0XJ6J8"
+        spreadsheetId: "14-4_Rd03l4pusbwsOcwR7xurOn9Jx-3BiJXPlWaZlvU"
     },
 
     demo: {
-    enabled: true,
+    enabled: false,
 
     title: "This is a Demo Version",
 
@@ -36,6 +36,7 @@ const CONFIG = {
 
 resourceCategories: {
     order: [
+    "Sandbags",   
     "Food Sites",
     "Shelters",
     "Cooling Station",
