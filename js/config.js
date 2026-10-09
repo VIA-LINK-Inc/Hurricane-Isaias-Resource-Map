@@ -9,7 +9,7 @@ const CONFIG = {
 
     client: {
     name: "VIA LINK",
-    mapTitle: "Tropical Storm Isaias Disaster Resource Map",
+    mapTitle: "Hurricane Isaias Disaster Resource Map",
     demoMapTitle: "DEMO - VIA LINK Disaster Resource Map",
     brandColor: "#087DC1"
 },
